@@ -1,0 +1,61 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 3fr 4fr;
+}
+.nav{
+    height: 100%;
+}
+nav{
+    border: 1px gray solid;
+    width: 100%;
+    height: 25%;
+    background-color: darkcyan;
+    float: left;
+    text-align: center;
+    line-height: 100px;
+}
+nav:nth-child(odd){
+    background-color: cyan;
+}
+img.center {
+    display: block;
+    margin: 0 auto;
+}
+.content{
+    text-align: center;
+    vertical-align: center;
+    height: 425px;
+    line-height: 400px;
+    font-size: 40px;
+    border: darkcyan 1px solid;
+}
+.menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.menu>a{
+    text-align: center;
+    text-decoration: none;
+    border: 1px gray solid;
+}
+.quicklink{
+    text-align: center;
+    border: 1px solid gray;
+}
+.headercontent{
+    size: 30px;
+    height: 300px;
+    line-height: 300px;
+    text-align: center;
+    border: gray 1px solid;
+}
+.faculty{
+    text-align: center;
+    border: 1px solid gray;
+    list-style-position: inside;
+    height: 350px;
+}
+.footer{
+    text-align: center;
+    height: 20px;
+}
